@@ -1,0 +1,8 @@
+{
+  "console.log()": {
+    "prefix": "clog",
+    "body": [
+        "console.log(js)"
+    ]
+  }
+}

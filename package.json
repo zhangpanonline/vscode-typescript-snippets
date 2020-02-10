@@ -2,10 +2,19 @@
 	"name": "typescript-snippets",
 	"displayName": "TypeScript code Snippets",
 	"description": "Code snippets for TypeScript and JavaScipt syntax",
-	"version": "0.0.4",
-	"keywords": [ "snippets", "js", "ts", "TypeScript", "typescipt" ],
+	"version": "0.0.6",
+	"keywords": [
+		"snippets",
+		"js",
+		"ts",
+		"TypeScript",
+		"typescipt"
+	],
 	"publisher": "zhangpanchina",
 	"license": "SEE LICENSE IN LICENSE.txt",
+	"scripts": {
+		"commit": "git add . && npx git-cz && git pull && git push"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/zhangpanchina/vscode-typescript-snippets"
@@ -20,12 +29,28 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./snippets.json"
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/common.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets.json"
+				"path": "./snippets/typescript.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/common.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"cz-conventional-changelog": "3.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }

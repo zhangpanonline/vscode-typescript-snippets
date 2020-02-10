@@ -1,0 +1,8 @@
+{
+    "console.log()": {
+      "prefix": "ctab",
+      "body": [
+          "console.table(all)"
+      ]
+    }
+  }
