@@ -8,6 +8,11 @@ This extension contains code snippets for TypeScript syntax for [Vs Code][code] 
 * JavaScript (.js)
 * TypeScript (.ts)
 
+## Author
+@email: zhangpan.html@gmail.com
+
+@github: https://github.com/zhangpanchina/vscode-typescript-snippets
+
 ## Snippets
 
 Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.

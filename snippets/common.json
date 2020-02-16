@@ -5,11 +5,11 @@
   },
   "console.log()": {
     "prefix": "clog",
-    "body": "console.log('%c@@@$CLIPBOARD===>', 'color:green;font-size:15px', ${1:CLIPBOARD})$0"
+    "body": "console.log('%c@@@$CLIPBOARD===>', 'color:green;font-size:15px', ${1:${CLIPBOARD}})$0"
   },
   "console.dir()": {
     "prefix": "cdir",
-    "body": "console.dir('%c@@@$CLIPBOARD===>', 'color:green;font-size:15px', ${1:CLIPBOARD})$0"
+    "body": "console.dir('%c@@@$CLIPBOARD===>', 'color:green;font-size:15px', ${1:${CLIPBOARD}})$0"
   },
   "console.error()": {
     "prefix": "cerr",
@@ -17,7 +17,7 @@
   },
   "console.table()": {
     "prefix": "ctab",
-    "body": "console.table(${1:CLIPBOARD})$0"
+    "body": "console.table(${1:${CLIPBOARD}})$0"
   },
   "console.clear()": {
     "prefix": "ccle",
